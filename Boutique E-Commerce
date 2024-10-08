@@ -1,0 +1,100 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique ecomerce</title>
+    <link rel="shorcut" href="/8628925.png">
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;
+          background-color: aquamarine;
+        margin: 0px;
+      padding: 0px;}
+          nav{ display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 20px;
+background-color: #fff;
+position: sticky
+top:0;}
+nav h1{ font-size: 30px;}
+nav .onglets{
+  display: flex; flex-wrap: wrap;
+}
+nav .onglets p{ 
+  font-size: 17px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+nav  .onglets input{
+  margin: 8xp  20xp; padding: 15px; border-radius: 30px; background-color: #f2f2f2;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header h1{
+  font-size: 50px;
+  max-width: 500px;
+  text-align: center;
+}
+header button{
+  padding: 15px 20px;
+  border-radius: 50px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+main{
+  margin: 20px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div h4{ display: flex;
+flex-direction: column;
+justify-content: center;}
+    </style>
+    
+</head>
+<body>
+  <nav>
+  <h1>Boutique E-Comerce</h1>  
+  <div class="onglets">
+    <p class="link">Nouvauté</p>
+    <p class="link">Homme</p>
+    <p class="link">Femme</p>
+    <p class="link">Enfant</p>
+    <p class="link">Cadeaux</p>
+    <form><input type="search" placeholder="Rechercher"></form>
+    <p><link rel="shortcut" href="/caddie.jpg"></p>
+  </div>
+
+  </nav>
+  <header>
+    <h1>Vos envie à la portée de vos doigts</h1>
+    <button>CLIQUER</button>
+  </header>
+  <section class="main">
+    <div class="card">
+      <img src="https://th.bing.com/th/id/OIP.MoSxd9qUTv5zCZStipwT7QHaHa?rs=1&pid=ImgDetMain" alt="">
+      <div class="card-header">
+        <h4 class="title">tenue de sport</h4>
+        <h4 class="price">20$</h4>
+        
+      </div>
+        <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_304,c_limit/8cf41826-2f64-4738-8f8d-28268157af64/nike-just-do-it.jpg" alt=""><div class="card-header"></div>
+        <h4 class="title">basket</h4>
+        <h4 class="price">200$</h4>
+      
+    </div>
+
+    
+  </section>
+  
+</body>
+</html>
